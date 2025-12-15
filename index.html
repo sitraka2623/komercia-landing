@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plateforme de digitalisation des commerces locaux à Madagascar - Achetez et vendez en ligne facilement">
+    <title>Komercia - Digitalisez votre commerce à Madagascar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <span class="logo-icon">🛍️</span>
+                    <span class="logo-text">Komercia</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#features" data-i18n="nav.features">Fonctionnalités</a></li>
+                    <li><a href="#how-it-works" data-i18n="nav.howItWorks">Comment ça marche</a></li>
+                    <li><a href="#pricing" data-i18n="nav.pricing">Tarifs</a></li>
+                    <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+                </ul>
+                <div class="nav-buttons">
+                    <button class="language-switcher" id="languageSwitcher" title="Switch to English">
+                        <span class="flag">🇫🇷</span>
+                    </button>
+                    <button class="btn btn-outline" data-i18n="nav.login">Connexion</button>
+                    <button class="btn btn-primary" data-i18n="nav.start">Commencer</button>
+                </div>
+                <button class="mobile-menu-toggle">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span data-i18n="hero.title">Digitalisez votre commerce à</span> <span class="highlight">Madagascar</span>
+                    </h1>
+                    <p class="hero-description" data-i18n="hero.description"></p>
+                        La première plateforme PWA qui connecte les commerçants malgaches avec leurs clients. 
+                        Vendez en ligne, gérez vos stocks et acceptez les paiements Mobile Money facilement.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary btn-large">
+                            <span data-i18n="hero.createStore">Créer ma boutique</span>
+                            <span class="btn-icon">→</span>
+                        </button>
+                        <button class="btn btn-outline btn-large" data-i18n="hero.discoverProducts">
+                            Découvrir les produits
+                        </button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label" data-i18n="hero.merchants">Commerçants</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10K+</span>
+                            <span class="stat-label" data-i18n="hero.products">Produits</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50K+</span>
+                            <span class="stat-label" data-i18n="hero.customers">Clients</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <div class="mockup-content">
+                                <div class="mockup-header">
+                                    <div class="search-bar">🔍 Rechercher des produits...</div>
+                                </div>
+                                <div class="mockup-products">
+                                    <div class="product-card">
+                                        <div class="product-img">📱</div>
+                                        <div class="product-info">
+                                            <div class="product-name">Smartphone</div>
+                                            <div class="product-price">250,000 Ar</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-card">
+                                        <div class="product-img">👕</div>
+                                        <div class="product-info">
+                                            <div class="product-name">Vêtements</div>
+                                            <div class="product-price">45,000 Ar</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="features.title">Tout ce dont vous avez besoin</h2>
+                <p class="section-subtitle" data-i18n="features.subtitle">Une plateforme complète pour développer votre activité</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🏪</div>
+                    <h3 class="feature-title" data-i18n="features.onlineStore.title">Boutique en ligne</h3>
+                    <p class="feature-description" data-i18n="features.onlineStore.description">
+                        Créez votre vitrine digitale en quelques minutes. Ajoutez vos produits, photos et descriptions facilement.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💳</div>
+                    <h3 class="feature-title" data-i18n="features.payments.title">Paiements Mobile Money</h3>
+                    <p class="feature-description" data-i18n="features.payments.description"></p>
+                        Acceptez MVola, Orange Money et Airtel Money. Transactions sécurisées et instantanées.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📍</div>
+                    <h3 class="feature-title" data-i18n="features.geolocation.title">Géolocalisation</h3>
+                    <p class="feature-description" data-i18n="features.geolocation.description"></p>
+                        Les clients trouvent facilement votre commerce. Affichez votre position sur la carte interactive.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📦</div>
+                    <h3 class="feature-title" data-i18n="features.inventory.title">Gestion des stocks</h3>
+                    <p class="feature-description" data-i18n="features.inventory.description"></p>
+                        Suivez vos inventaires en temps réel. Recevez des alertes pour les produits en rupture de stock.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3 class="feature-title" data-i18n="features.ai.title">Intelligence Artificielle</h3>
+                    <p class="feature-description" data-i18n="features.ai.description"></p>
+                        Recommandations personnalisées pour vos clients. Analyses prédictives pour optimiser vos ventes.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3 class="feature-title" data-i18n="features.offline.title">Mode Offline</h3>
+                    <p class="feature-description" data-i18n="features.offline.description"></p>
+                        Fonctionne même sans connexion internet. Synchronisation automatique dès que vous êtes en ligne.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="howItWorks.title">Comment ça marche ?</h2>
+                <p class="section-subtitle" data-i18n="howItWorks.subtitle">Lancez votre boutique en 3 étapes simples</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3 class="step-title" data-i18n="howItWorks.step1.title">Inscrivez-vous</h3>
+                        <p class="step-description" data-i18n="howItWorks.step1.description"></p>
+                            Créez votre compte commerçant gratuitement. Renseignez les informations de votre entreprise.
+                        </p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3 class="step-title" data-i18n="howItWorks.step2.title">Ajoutez vos produits</h3>
+                        <p class="step-description" data-i18n="howItWorks.step2.description"></p>
+                            Uploadez vos articles avec photos, descriptions et prix. Organisez-les par catégories.
+                        </p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3 class="step-title" data-i18n="howItWorks.step3.title">Commencez à vendre</h3>
+                        <p class="step-description" data-i18n="howItWorks.step3.description"></p>
+                            Recevez des commandes, gérez les paiements et développez votre clientèle en ligne.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="pricing.title">Tarifs transparents</h2>
+                <p class="section-subtitle" data-i18n="pricing.subtitle">Choisissez le plan adapté à votre activité</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title" data-i18n="pricing.free.title">Gratuit</h3>
+                        <div class="pricing-price">
+                            <span class="price">0 Ar</span>
+                            <span class="period" data-i18n="pricing.perMonth">/mois</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li data-i18n="pricing.free.feature1">✓ Jusqu'à 20 produits</li>
+                        <li data-i18n="pricing.free.feature2">✓ Paiements Mobile Money</li>
+                        <li data-i18n="pricing.free.feature3">✓ Géolocalisation</li>
+                        <li data-i18n="pricing.free.feature4">✓ Support par email</li>
+                        <li class="disabled" data-i18n="pricing.free.feature5">✗ Analyses avancées</li>
+                        <li class="disabled" data-i18n="pricing.free.feature6">✗ IA personnalisée</li>
+                    </ul>
+                    <button class="btn btn-outline btn-block" data-i18n="pricing.free.button">Commencer</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="badge" data-i18n="pricing.popular">Populaire</div>
+                    <div class="pricing-header">
+                        <h3 class="pricing-title" data-i18n="pricing.pro.title">Pro</h3>
+                        <div class="pricing-price">
+                            <span class="price">25,000 Ar</span>
+                            <span class="period" data-i18n="pricing.perMonth">/mois</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li data-i18n="pricing.pro.feature1">✓ Produits illimités</li>
+                        <li data-i18n="pricing.pro.feature2">✓ Paiements Mobile Money</li>
+                        <li data-i18n="pricing.pro.feature3">✓ Géolocalisation avancée</li>
+                        <li data-i18n="pricing.pro.feature4">✓ Support prioritaire</li>
+                        <li data-i18n="pricing.pro.feature5">✓ Analyses détaillées</li>
+                        <li data-i18n="pricing.pro.feature6">✓ Recommandations IA</li>
+                    </ul>
+                    <button class="btn btn-primary btn-block" data-i18n="pricing.pro.button">Essayer gratuitement</button>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title" data-i18n="pricing.enterprise.title">Entreprise</h3>
+                        <div class="pricing-price">
+                            <span class="price" data-i18n="pricing.enterprise.price">Sur mesure</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li data-i18n="pricing.enterprise.feature1">✓ Tout du plan Pro</li>
+                        <li data-i18n="pricing.enterprise.feature2">✓ Multi-boutiques</li>
+                        <li data-i18n="pricing.enterprise.feature3">✓ API personnalisée</li>
+                        <li data-i18n="pricing.enterprise.feature4">✓ Support dédié 24/7</li>
+                        <li data-i18n="pricing.enterprise.feature5">✓ Formation sur site</li>
+                        <li data-i18n="pricing.enterprise.feature6">✓ Intégrations avancées</li>
+                    </ul>
+                    <button class="btn btn-outline btn-block" data-i18n="pricing.enterprise.button">Nous contacter</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title" data-i18n="cta.title">Prêt à digitaliser votre commerce ?</h2>
+                <p class="cta-description" data-i18n="cta.description">
+                    Rejoignez des centaines de commerçants malgaches qui ont déjà fait le choix du digital
+                </p>
+                <button class="btn btn-primary btn-large">
+                    <span data-i18n="cta.button">Créer ma boutique gratuitement</span>
+                    <span class="btn-icon">→</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <span class="logo-icon">🛍️</span>
+                        <span class="logo-text">Komercia</span>
+                    </div>
+                    <p class="footer-description" data-i18n="footer.description"></p>
+                        La plateforme qui digitalise les commerces locaux à Madagascar
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title" data-i18n="footer.product.title">Produit</h4>
+                    <ul class="footer-links">
+                        <li><a href="#features" data-i18n="footer.product.features">Fonctionnalités</a></li>
+                        <li><a href="#pricing" data-i18n="footer.product.pricing">Tarifs</a></li>
+                        <li><a href="#" data-i18n="footer.product.docs">Documentation</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title" data-i18n="footer.company.title">Entreprise</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" data-i18n="footer.company.about">À propos</a></li>
+                        <li><a href="#" data-i18n="footer.company.blog">Blog</a></li>
+                        <li><a href="#" data-i18n="footer.company.careers">Carrières</a></li>
+                        <li><a href="#contact" data-i18n="footer.company.contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title" data-i18n="footer.legal.title">Légal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" data-i18n="footer.legal.privacy">Confidentialité</a></li>
+                        <li><a href="#" data-i18n="footer.legal.terms">Conditions</a></li>
+                        <li><a href="#" data-i18n="footer.legal.mentions">Mentions légales</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Komercia. <span data-i18n="footer.rights">Tous droits réservés</span>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
