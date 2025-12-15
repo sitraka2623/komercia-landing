@@ -126,6 +126,12 @@ const translations = {
                 terms: "Conditions",
                 mentions: "Mentions légales"
             }
+        },
+        chat: {
+            title: "Assistant Komercia",
+            status: "En ligne",
+            welcome: "Bonjour ! Comment puis-je vous aider aujourd'hui ?",
+            placeholder: "Tapez votre message..."
         }
     },
     en: {
@@ -254,6 +260,12 @@ const translations = {
                 terms: "Terms",
                 mentions: "Legal notices"
             }
+        },
+        chat: {
+            title: "Komercia Assistant",
+            status: "Online",
+            welcome: "Hello! How can I help you today?",
+            placeholder: "Type your message..."
         }
     }
 };
